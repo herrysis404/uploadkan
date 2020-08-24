@@ -162,7 +162,7 @@ async def youtube_dl_call_back(bot, update):
                     is_w_f,
                     "",
                     300,
-                    3
+                    0
                 )
                 LOGGER.info(images)
                 await update.message.edit_caption(
@@ -267,7 +267,7 @@ async def youtube_dl_call_back(bot, update):
                 media_album_p = []
                 if images is not None:
                     i = 0
-                    caption = "© @uploadkan"
+                    caption = "© this uploaded using @uploadkan"
                     for image in images:
                         if os.path.exists(image):
                             if i == 0:
