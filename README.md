@@ -1,5 +1,4 @@
-## [AnyDLBot](https://telegram.dog/AnyDLBot)
----
+---------------------
 
 An Open Source ALL-In-One Telegram RoBot, that can do lot of things.
 👉 check the 'branches' for all the features..!
@@ -8,7 +7,7 @@ An Open Source ALL-In-One Telegram RoBot, that can do lot of things.
 
 * [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
 * [Yoily](https://telegram.dog/YoilyL) for his [UploaditBot](https://telegram.dog/UploaditBot)
-
+* [ SpEcHiDe ] for his [AnyDLBot](https://github.com/SpEcHiDe/AnyDLBot)
 ### Installation
 
 #### The Easy Way
@@ -22,7 +21,7 @@ virtualenv -p python3 VENV
 . ./VENV/bin/activate
 pip install -r requirements.txt
 # <Create config.py with variables as given below>
-python3 -m anydlbot
+python3 -m uploadkan
 ```
 
 An example `config.py` file could be:
