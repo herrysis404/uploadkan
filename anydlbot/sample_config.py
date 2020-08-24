@@ -21,7 +21,7 @@ class Config(object):
     # default thumbnail to be used in the videos
     DEF_THUMB_NAIL_VID_S = os.environ.get(
         "DEF_THUMB_NAIL_VID_S",
-        "https://placehold.it/90x90"
+        "https://static.eventdecordirect.com/img/videoicon.png?scale.width=75"
     )
     # proxy for accessing youtube-dl in GeoRestricted Areas
     # Get your own proxy from
@@ -30,5 +30,5 @@ class Config(object):
     # maximum message length in Telegram
     MAX_MESSAGE_LENGTH = 4096
     # add config vars for the display progress
-    FINISHED_PROGRESS_STR = os.environ.get("FINISHED_PROGRESS_STR", "█")
-    UN_FINISHED_PROGRESS_STR = os.environ.get("UN_FINISHED_PROGRESS_STR", "░")
+    FINISHED_PROGRESS_STR = os.environ.get("FINISHED_PROGRESS_STR", "⚫")
+    UN_FINISHED_PROGRESS_STR = os.environ.get("UN_FINISHED_PROGRESS_STR", "⚪")
