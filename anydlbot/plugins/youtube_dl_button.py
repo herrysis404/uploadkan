@@ -162,7 +162,7 @@ async def youtube_dl_call_back(bot, update):
                     is_w_f,
                     "",
                     300,
-                    9
+                    3
                 )
                 LOGGER.info(images)
                 await update.message.edit_caption(
