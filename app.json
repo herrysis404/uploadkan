@@ -1,5 +1,5 @@
 {
-  "name": "AnyDLBot",
+  "name": "UPLOADKAN",
   "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
   "keywords": [
     "telegram",
@@ -14,7 +14,7 @@
     "remote",
     "uploader"
   ],
-  "success_url": "https://telegram.dog/AnyDLBot",
+  "success_url": "https://telegram.dog/uploadkan",
   "website": "https://github.com/herrysis404/uploadkan",
   "repository": "https://github.com/herrysis404/uploadkan",
   "env": {
